@@ -1,0 +1,90 @@
+
+.cuadroPrincipal_tituloPrin{
+    background-image: url(mariposas.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(100, 105, 109);
+    font-size: 100px;
+    margin: 0px;
+    text-align: center;
+}
+.cuadroPrincipal_Texto{
+    color: rgb(104, 100, 103);
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.cuadroPrincipal_Button{
+    color: rgb(108, 105, 109);
+    background-color: rgb(106, 104, 107);
+    font-size: 20px;
+    cursor:pointer;
+}
+.cuerpo_Prin{
+    background-image: url("libro2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.cuadroPrincipal{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 110px;
+}
+.Principal_button{
+    cursor: pointer;
+    background-color: rgb(87, 85, 87);
+}
+.Principal_Cuerpo{
+    background-image:  url("fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.redesSociales{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color: rgb(87, 85, 87);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu__logotipo{
+    height: 70px;
+}
+.menu__lista{
+    display: flex;
+    list-style: none;
+}
+.menu__lista__elemento{
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.redesSociales__logo{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu_lista_link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.973);
+}
+.menu_lista_link :hover{
+    color: rgb(69, 72, 75);
+}
+.footer{
+    background: linear-gradient(rgba(93, 89, 94, 0.581),rgba(77, 75, 76, 0.581));
+    display: flex;src: format();
+    align-items: flex-end;
+    justify-content: center;
+}

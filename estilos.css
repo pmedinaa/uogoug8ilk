@@ -1,0 +1,90 @@
+
+.cuadroPrincipal_tituloPrin{
+    background-image: url(Fondo.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(192, 112, 199);
+    font-size: 100px;
+    margin: 0px;
+    text-align: center;
+}
+.cuadroPrincipal_Texto{
+    color: rgb(190, 119, 178);
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.cuadroPrincipal_Button{
+    color: rgb(195, 0, 255);
+    background-color: rgb(195, 152, 236);
+    font-size: 20px;
+    cursor:pointer;
+}
+.cuerpo_Prin{
+    background-image: url("imagen01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.cuadroPrincipal{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 110px;
+}
+.Principal_button{
+    cursor: pointer;
+    background-color: rgb(136, 106, 133);
+}
+.Principal_Cuerpo{
+    background-image:  url("imagen02.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.redesSociales{
+    background-color: rgb(211, 128, 186);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color: rgb(235, 180, 223);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu__logotipo{
+    height: 70px;
+}
+.menu__lista{
+    display: flex;
+    list-style: none;
+}
+.menu__lista__elemento{
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.redesSociales__logo{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu_lista_link{
+    text-decoration: none;
+    color: rgba(65, 23, 51, 0.973);
+}
+.menu_lista_link :hover{
+    color: rgb(40, 49, 57);
+}
+.footer{
+    background: linear-gradient(rgba(145, 9, 199, 0.581),rgba(245, 0, 122, 0.581));
+    display: flex;src: format();
+    align-items: flex-end;
+    justify-content: center;
+}
